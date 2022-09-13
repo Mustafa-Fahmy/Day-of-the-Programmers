@@ -1,0 +1,30 @@
+
+
+
+    
+ 
+   function DayOfProgrammer(inputYear)
+   {
+       
+  
+    if(inputYear  == 1918){
+        console.log('26.09.1918')
+    }
+    else{
+         
+         if(inputYear  <= 1917 && inputYear% 4 == 0){
+            console.log('12.09.' + inputYear);
+           
+         }
+       
+       else if(inputYear  >= 1919 && inputYear % 400 == 0 || (inputYear % 4 == 0 && inputYear % 100 != 0)  )
+        {
+             console.log('12.09.' + inputYear); 
+        }
+       else
+        {
+          console.log('13.09.' + inputYear);
+        }
+        }
+   }
+
